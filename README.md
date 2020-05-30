@@ -1,13 +1,13 @@
 # Palindrome detector
 
-`mhartl_palindrome` is a sample Ruby gem created in [_Learn Enough Ruby to Be Dangerous_](https://www.learnenough.com/ruby-tutorial) by Michael Hartl.
+`sklq_palindrome` is a sample Ruby gem created in [_Learn Enough Ruby to Be Dangerous_](https://www.learnenough.com/ruby-tutorial) by Michael Hartl.
 
 ## Installation
 
-To install `mhartl_palindrome`, add this line to your application's `Gemfile`:
+To install `sklq_palindrome`, add this line to your application's `Gemfile`:
 
 ```
-gem 'mhartl_palindrome'
+gem 'sklq_palindrome'
 ```
 
 Then install as follows:
@@ -19,16 +19,16 @@ $ bundle install
 Or install it directly using `gem`:
 
 ```
-$ gem install mhartl_palindrome
+$ gem install sklq_palindrome
 ```
 
 ## Usage
 
-`mhartl_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
+`sklq_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
 
 ```
 $ irb
->> require 'mhartl_palindrome'
+>> require 'sklq_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
