@@ -2,7 +2,11 @@ require "sklq_palindrome/version"
 
 module SklqPalindrome
   def palindrome?
-    processed_content == processed_content.reverse
+    if processed_content.empty?
+      false
+    else
+      processed_content == processed_content.reverse
+    end
   end
 
   private
